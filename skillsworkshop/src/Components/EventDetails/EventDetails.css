@@ -241,24 +241,35 @@
   }
 }
 
+@media screen and (max-width: 810px) {
+  .photoandorg {
+    display: block;
+  }
+
+  .photobox {
+    width: 80%;
+    /* height: 300px; */
+  }
+
+  .project_details {
+    width: 90%;
+    /* padding-left: 50px; */
+    /* padding-right: 50px; */
+  }
+
+  .attendee-detail {
+    display: block;
+  }
+
+  .orgbox {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .all-events {
-    display: block;
-  }
-
-  .all-mentors {
-    grid-template-columns: 50% 50%;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .all-mentors {
-    display: block;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .photoandorg {
     display: block;
   }
 
@@ -267,17 +278,6 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
-  }
-
-  .project_details {
-    width: auto;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
-  .orgbox {
-    margin: auto;
-    text-align: center;
   }
 
   .details_title {
@@ -309,5 +309,15 @@
     margin-left: auto;
     margin-right: auto;
     width: 60%;
+  }
+
+  .all-mentors {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .all-mentors {
+    display: block;
   }
 }
